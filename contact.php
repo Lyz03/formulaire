@@ -7,11 +7,11 @@ require __DIR__ . '/partials/header.php'; ?>
         <form action="/forms/contact-form.php" method="post">
             <div>
                 <label for="id-username">Username</label>
-                <input type="text" name="username" id="id-username">
+                <input type="text" name="username" id="id-username" required>
             </div>
             <div>
                 <label for="id-message">Votre message</label>
-                <textarea name="message" id="id-message"></textarea>
+                <textarea name="message" id="id-message" required></textarea>
             </div>
             <div>
                 <input type="submit" value="Envoyer" name="submit">
